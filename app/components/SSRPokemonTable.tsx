@@ -1,8 +1,10 @@
 import React from 'react';
+import { store } from '../store'
+import PokemonTable from './PokemonTable'
 
 const SSRPokemonTable = () => {
   return (
-    <div>SSRPokemonTable</div>
+    <PokemonTable pokemons={store.getState().search.startupPokemon} />
   )
 }
 
