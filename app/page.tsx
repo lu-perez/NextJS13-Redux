@@ -1,13 +1,7 @@
-import Providers from './components/Provider'
-import SearchInput from './components/SearchInput';
-
-export default function Home() {
+export default async function Home() {
   return (
     <main>
       <div>Home</div>
-      <Providers>
-        <SearchInput />
-      </Providers>
     </main>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import { store } from '../store'
-import PokemonTable from './PokemonTable'
+import { store } from '../../store'
+import PokemonTable from '../../components/PokemonTable'
 
 const SSRPokemonTable = () => {
   return (

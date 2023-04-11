@@ -1,4 +1,4 @@
-import SSRPokemonTable from '../components/SSRPokemonTable'
+import SSRPokemonTable from './components/SSRPokemonTable'
 import { store } from '../store'
 import { setStartupPokemon } from '../store/searchSlice'
 
